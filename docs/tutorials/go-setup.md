@@ -1,3 +1,4 @@
-# Setting up a dev container for <Insert: Go or Rust depending on which you are doing>
+# Setting up a dev container for GO
 
-* Primary author: [Ansh Desai](https://github.com/anshdesai04)
+* Primary author: [Sujay Patel>](https://github.com/SUJP123)
+* Reviewer: [Ansh Desai](https://github.com/anshdesai04)
