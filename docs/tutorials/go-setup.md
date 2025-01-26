@@ -150,4 +150,4 @@ Replace `<username>` and `<repository-name>` with your GitHub username and the r
         `git branch -M main`
 
 
-Congrats on completing your first Go Project!
+Congrats on completing your first Go Project! :+1:
