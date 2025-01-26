@@ -54,7 +54,7 @@ Replace `<username>` and `<repository-name>` with your GitHub username and the r
 
  3. Add the following configuration to the `devcontainer.json` file:  
 
-```
+```json
     {
         "name": "Go Dev Container",
         "image": "mcr.microsoft.com/vscode/devcontainers/base:ubuntu",
@@ -73,8 +73,7 @@ Replace `<username>` and `<repository-name>` with your GitHub username and the r
         ]
     }
 ```
- 4. In VS Code, click the `Reopen in Container` button that appears. If it doesn't appear,
- try holding down `Command-Shift` and pressing `p` twice and type in `Dev Containers: Reopen in Container` at the top of the VS Code page.
+ 4. In VS Code, click the `Reopen in Container` button that appears. If it doesn't appear, try holding down `Command-Shift` and pressing `p` twice and type in `Dev Containers: Reopen in Container` at the top of the VS Code page.
 
  5. Verify that Go is installed by running the following:
 
@@ -96,7 +95,7 @@ Replace `<username>` and `<repository-name>` with your GitHub username and the r
 
 3. Type the following code in your `main.go` file:
 
-```
+```go
     package main
 
     import "fmt"
@@ -146,7 +145,8 @@ Replace `<username>` and `<repository-name>` with your GitHub username and the r
 5. Push your files:
     `git push -u origin main`
 
-    - If you're using an older version of git, your branch may be named `master` instead of `main`. You can change it with the following command:
+    !!! note
+        If you're using an older version of git, your branch may be named `master` instead of `main`. You can change it with the following command:
         `git branch -M main`
 
 
