@@ -63,9 +63,9 @@ Replace `<username>` and `<repository-name>` with your GitHub username and the r
         },
         "customizations": {
             "vscode": {
-            "extensions": [
-                "golang.go"
-            ]
+                "extensions": [
+                    "golang.go"
+                ]
             }
         },
         "mounts": [
