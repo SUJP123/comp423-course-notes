@@ -81,7 +81,7 @@ Replace `<username>` and `<repository-name>` with your GitHub username and the r
     `go version`
 
     - Your terminal should read something similar to this:  
-    `go version blah blah when I do the project`
+    `go version go1.23.5 linux/arm64`
 
 ## 4. Starting the Go Project
 
@@ -144,8 +144,10 @@ Replace `<username>` and `<repository-name>` with your GitHub username and the r
     `git commit -m "your-commit-message"`
 
 5. Push your files:
+    `git push -u origin main`
 
-    `git push --set-upstream origin main`
+    - If you're using an older version of git, your branch may be named `master` instead of `main`. You can change it with the following command:
+        `git branch -M main`
 
 
 Congrats on completing your first Go Project!
