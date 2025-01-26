@@ -1,4 +1,4 @@
-# Setting up a dev container for GO
+# Setting up a Dev Container for GO
 
-* Primary author: [Sujay Patel](https://github.com/SUJP123)
+* Primary Author: [Sujay Patel](https://github.com/SUJP123)
 * Reviewer: [Ansh Desai](https://github.com/anshdesai04)
